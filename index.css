@@ -1,0 +1,22 @@
+.header{
+    font-family: 'Alegreya SC', serif;
+    font-size: 40pt;
+}
+
+h4{
+    font-size: 30pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner{
+    position: absolute;
+    align-self: center;
+}
+
+#submit{
+    border-radius: 15%;
+}
+
+#option{
+    border-radius: 15%;
+}

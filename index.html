@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:900|Oswald|UnifrakturMaguntia" rel="stylesheet">
     <title>GOT API</title>
 </head>
 
 <body>
-    <h1>Game of Thrones API</h1>
+    <img src="/JavaScriptLibrary/2-javaScript-Projects/3-API/assets/0N4DKqBf.jpg">
+    <h1 class="header">Game of Thrones API
+    </h1>
+    <h4>Several houses vie for power, but not all shall prosper...</h4>
+    <h4>Select a house to see its infromation</h4>
 
     <div class="wrapper">
         <div class="search">
@@ -22,21 +27,21 @@
                     <option value="395">House Tully</option>
                     <option value="378">House Targaryen</option>
                     <option value="229">House Lannister</option>
-                    <option value="397">House Tyrell</option>
+                    <option value="398">House Tyrell</option>
                     <option value="285">House Martell</option>
+                    <option value="7">House Arryn</option>
+                    <option value="169">House Greyjoy</option>
                 </select>
                 <button id="submit">Submit</button>
             </form>
         </div>
         <!-- results nav -->
         <div class="Results">
-            <!-- <nav>
-                <button class="prev">Previous 10</button>
-                <button class="next">Next 10</button>
-            </nav> -->
-            <!-- results section -->
             <section>
-
+                <h2 id="name"></h2>
+                <h3 id="region"></h3>
+                <h3 id="coatOfArms"></h3>
+                <h3 id="words"></h3>
             </section>
         </div>
     </div>
