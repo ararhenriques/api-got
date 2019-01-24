@@ -1,3 +1,7 @@
+body{
+    background-color: maroon;
+}
+
 .header{
     font-family: 'Alegreya SC', serif;
     font-size: 40pt;
@@ -9,8 +13,7 @@ h4{
 }
 
 .banner{
-    position: absolute;
-    align-self: center;
+    left: 3em;
 }
 
 #submit{
